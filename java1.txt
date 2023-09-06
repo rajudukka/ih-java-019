@@ -1,0 +1,143 @@
+Naming Coventions in Java
+==========================
+In java , uppercase letters will treated as different and lower case letters will treated as different , that's why we consider java is a case sensitive programming language.
+
+As java is a case sensitive, we must and should follow naming convention for following things.
+
+ex:
+	classes 
+	interfaces
+	variables
+	methods
+	keywords
+	packages &
+	constants 
+
+
+classes 
+---------
+In java, A class name must and should starts with upper case letter and if it contains multiple words then each inner word must starts with initcap.
+ex:
+	predefined classes		Userdefined classes
+	------------------		-------------------
+	String				AnjaliSagili
+	System				RaviKumar
+	FileWriter 			TestApp
+	BufferedReader			ExampleDemo 
+	and etc.			and etc.
+
+interfaces
+-----------
+In java, an interface name must and should starts with upper case letter and if it contains multiple words then each inner word must and should starts with initcap.
+ex:
+	Predefined interfaces		Userdefined interfaces
+	-------------------		---------------------
+	Runnable 			IRaviKumar 
+	Serializable			ITestApp
+	ListIterator 			IDemoExample
+	Enumeration 			IAnjali
+	and etc.			and etc.
+
+variables
+-----------
+In java, a variable name must and should starts with lower case letter and if it contains multiple words then each inner word must and should starts with initcap.
+ex:
+	predefined variables		Userdefined variables
+	------------------		-------------------
+	length				i
+	in				empId
+	out				studName
+	err 				deptNo 
+	and etc.			and etc.
+	
+methods
+--------
+In java, a method name must and should starts with lower case letter and if it contains multiple words then each inner word must and should starts with initcap.
+ex:
+	predefined methods		Userdefined methods
+	----------------		-------------------
+	hashCode()			methodOne()
+	getClass()			getDetails()
+	setPriority()			calculateBillAmount()
+	getName()			setEmployeeDetails()
+	and etc.			and etc.
+
+keywords
+----------
+In java, all keywords we need to declare under lower case letters only.
+ex:
+	predefined keywords
+	------------------
+	if
+	else
+	do
+	while
+	public
+	static
+	and etc.
+
+packages
+----------
+In java, a package name must and should declare under lower case letters only.
+ex:
+	predefined packages		Userdefined packages
+	---------------------		----------------------
+	java.lang			ihubtalent
+	java.io				qualitythought 
+	java.util			com.ihubtalent.www
+	java.util.stream		com.google.www
+	java.text			and etc.
+	java.time
+	java.sql
+	javax.servlet 
+	javax.jsp 
+	and etc.
+
+constants 
+---------
+In java, all constants we need to declare under uppercase letters only.
+ex:
+	Predefined constants		Userdefined constants
+	-----------------		--------------------
+	MAX_PRIORITY			LIMIT=10;	
+	MIN_PRIORITY
+	NORM_PRIORITY
+	MAX_VALUE
+	MIN_VALUE
+	and etc.
+
+practicals Demo
+---------------
+
+class 		:	JaniBasha
+
+interface	:	IJaniBasha
+
+variable	:	janiBasha
+
+method		: 	janiBasha()
+
+packages	:	com.janibasha.www
+
+constants 	:	JANIBASHA / JANI_BASHA	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
